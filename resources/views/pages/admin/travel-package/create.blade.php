@@ -27,7 +27,7 @@
                     <input type="text" class="form-control" name="title" placeholder="Title" value="{{ old('title') }}">
                 </div>
                 <div class="form-group">
-                    <label for="title"> Location </label>
+                    <label for="location"> Location </label>
                     <input type="text" class="form-control" name="location" placeholder="Location" value="{{ old('location') }}">
                 </div>
                 <div class="form-group">
