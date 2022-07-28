@@ -24,7 +24,7 @@
                         <a href="#" class="dropdown-item">Link</a>
                         <a href="#" class="dropdown-item">Link</a>
                 </li>
-                <li class="nav-item mx-md-2"><a href="#" class="nav-link">Reviews</a>
+                <li class="nav-item mx-md-2"><a href="#testimonialContent" class="nav-link">Reviews</a>
                 </li>
 
 

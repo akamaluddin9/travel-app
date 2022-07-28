@@ -42,7 +42,8 @@ header {
   background-size: cover;
 }
 
-header h1, header p {
+header h1,
+header p {
   color: #fff;
 }
 
@@ -98,12 +99,13 @@ header .btn-get-started:hover {
   margin-top: 150px;
 }
 
-.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
   color: white;
 }
 
 .section-popular .section-popular-heading h2 {
-  font-family: 'Playfair Display',serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -145,7 +147,7 @@ header .btn-get-started:hover {
 }
 
 .section-network h2 {
-  font-family: 'Playfair Display',serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -162,7 +164,7 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-heading h2 {
-  font-family: 'Playfair Display',serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -402,6 +404,12 @@ header .btn-get-started:hover {
   display: block;
 }
 
+.gallery .xzoom-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 400px;
+}
+
 .gallery .xzoom-container .xzoom {
   width: 100%;
   -webkit-box-shadow: none;
@@ -455,5 +463,45 @@ header .btn-get-started:hover {
 .section-success .btn-home-page:hover {
   background-color: #1a4c9c;
   color: #fff;
+}
+
+@media (min-width: 992px) {
+  .login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #ffffff), color-stop(40%, #E4E6EB));
+    background: linear-gradient(90deg, #ffffff 60%, #E4E6EB 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.page-login {
+  height: 100vh;
+}
+
+.page-login .btn-login {
+  background-color: #ff9e53;
+  color: #fff;
+}
+
+.page-login .btn-login:hover {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.page-login .section-left h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color: #071C4D;
+}
+
+.page-login .section-right a {
+  font-family: "Asistant";
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 16px;
+  text-align: center;
+  color: #bfbfbf;
 }
 /*# sourceMappingURL=main.css.map */
